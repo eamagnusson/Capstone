@@ -1,7 +1,11 @@
-# Byte-compiled / optimized / DLL files
+u# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Data Files
+**.json.gz
+**.wav
 
 # C extensions
 *.so

@@ -19,7 +19,11 @@ from pydub import AudioSegment
 formats_to_convert = ['.m4a']
 
 # Place folder pathname here -->
+<<<<<<< HEAD
+for (dirpath, dirnames, filenames) in os.walk("/Users/evanmagnusson/sysCapstone/Capstone/0"):
+=======
 for (dirpath, dirnames, filenames) in os.walk("/Users/evanmagnusson/sysCapstone/Capstone/0/M4a_files"):
+>>>>>>> parent of 65d4bb6 (Slight fixes)
     for filename in filenames:
         if filename.endswith(tuple(formats_to_convert)):
 
